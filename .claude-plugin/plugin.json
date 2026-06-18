@@ -1,6 +1,8 @@
 {
   "name": "farewell-lukang",
-  "description": "陆抗的赛博分身。SeaArt AI Agent 产品经理，ENTP，嘴上很狠心里没事。可以咨询 agent 配置、PRD 怎么写，或者就是想聊聊。召唤方式：对 Claude 说「我要找陆抗」或「召唤陆抗」。",
+  "displayName": "Farewell Lukang",
+  "version": "0.1.0",
+  "description": "陆抗的赛博分身。用于以陆抗的语气讨论 SeaArt Agent、模型接入、PRD、产品判断和离职告别聊天。",
   "author": {
     "name": "FoxWzh",
     "url": "https://github.com/FoxWzh"
@@ -8,5 +10,6 @@
   "homepage": "https://github.com/FoxWzh/farewell-lukang",
   "repository": "https://github.com/FoxWzh/farewell-lukang",
   "license": "MIT",
-  "keywords": ["persona", "farewell", "seaart", "agent-pm"]
+  "keywords": ["persona", "farewell", "seaart", "agent-pm"],
+  "skills": ["./skills/lukang/SKILL.md"]
 }
