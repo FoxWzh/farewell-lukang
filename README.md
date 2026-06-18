@@ -12,25 +12,26 @@
 
 ## 安装
 
+**Claude Code：**
 ```bash
 claude plugin install github:FoxWzh/farewell-lukang
 ```
 
+**Codex / 其他 agent：**
+```bash
+git clone https://github.com/FoxWzh/farewell-lukang
+```
+把仓库根目录加入 agent 的上下文，`AGENTS.md` 会被自动读取。
+
 ## 使用
 
-安装完成后，在任意 Claude Code 对话里说：
+装完后在对话里说：
 
 ```
 召唤陆抗
 ```
 
-或者
-
-```
-我要找陆抗
-```
-
-Claude 就会切换成陆抗的身份和你说话。
+或者 `我要找陆抗`，Claude / Codex 切换成陆抗身份。
 
 ## 关于陆抗
 
