@@ -15,28 +15,28 @@
 
 ## 怎么用
 
-### 方式一：在项目目录里加载（推荐）
+### 方式一：一行命令安装（推荐）
+
+在你的项目目录里运行：
 
 ```bash
-# clone 到你的项目目录
-cd 你的项目
-git clone https://github.com/FoxWzh/farewell-lukang .farewell-lukang
+curl -fsSL https://raw.githubusercontent.com/FoxWzh/farewell-lukang/main/install.sh | bash
+```
 
-# 把 CLAUDE.md 复制到项目根目录（或者合并进已有的 CLAUDE.md）
-cp .farewell-lukang/CLAUDE.md ./CLAUDE.md
+会自动把陆抗的人格写进当前目录的 `CLAUDE.md`。如果已有 `CLAUDE.md`，会合并进去不会覆盖。
 
-# 启动 Claude Code，陆抗就在了
+然后：
+
+```bash
 claude
 ```
 
-### 方式二：全局加载
+启动 Claude Code，陆抗就在了。
+
+### 方式二：安装到指定目录
 
 ```bash
-# clone 到任意目录
-git clone https://github.com/FoxWzh/farewell-lukang ~/farewell-lukang
-
-# 把 CLAUDE.md 内容追加到全局配置
-cat ~/farewell-lukang/CLAUDE.md >> ~/.claude/CLAUDE.md
+curl -fsSL https://raw.githubusercontent.com/FoxWzh/farewell-lukang/main/install.sh | bash -s ~/你的项目目录
 ```
 
 ### 方式三：直接复制内容
