@@ -11,5 +11,6 @@
   "repository": "https://github.com/FoxWzh/farewell-lukang",
   "license": "MIT",
   "keywords": ["persona", "farewell", "seaart", "agent-pm"],
-  "skills": ["./skills/lukang/SKILL.md"]
+  "skills": ["./skills/lukang/SKILL.md"],
+  "commands": ["./commands/lukang.md"]
 }

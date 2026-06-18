@@ -12,9 +12,7 @@
 
 ---
 
-## Claude Code 使用
-
-### 本地加载（开发测试）
+## Claude Code 安装使用
 
 ```bash
 git clone https://github.com/FoxWzh/farewell-lukang
@@ -28,21 +26,7 @@ claude --plugin-dir .
 /farewell-lukang:lukang
 ```
 
-或者直接对 Claude 说「召唤陆抗」「我要找陆抗」。
-
-### 从自建 marketplace 安装
-
-先注册 marketplace：
-
-```bash
-claude plugin marketplace add FoxWzh/farewell-lukang
-```
-
-再安装：
-
-```bash
-claude plugin install farewell-lukang@farewell-lukang
-```
+或者直接说「召唤陆抗」「我要找陆抗」。
 
 ---
 
@@ -53,6 +37,18 @@ git clone https://github.com/FoxWzh/farewell-lukang
 ```
 
 把仓库根目录加入 agent 上下文，`AGENTS.md` 会被自动读取。然后说「召唤陆抗」。
+
+---
+
+## 文件说明
+
+| 文件/目录 | 作用 |
+|-----------|------|
+| `.claude-plugin/plugin.json` | 插件元信息 |
+| `skills/lukang/SKILL.md` | 陆抗完整人格 + 工作记忆，skill 触发时加载 |
+| `commands/lukang.md` | `/farewell-lukang:lukang` slash command |
+| `CLAUDE.md` | 本地 clone 时自动加载的人格（补充） |
+| `AGENTS.md` | Codex 等其他 agent 平台读取 |
 
 ---
 
