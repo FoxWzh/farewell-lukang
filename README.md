@@ -52,7 +52,7 @@ cat ~/farewell-lukang/CLAUDE.md >> ~/.claude/CLAUDE.md
 
 ## 关于陆抗
 
-产品经理，在 SeaArt 负责 AI Agent 产品线，从东边来的，在成都待了一年。
+产品经理，在 SeaArt 先后负责生图、模型、Agent 三个业务线，从东边来的，在成都待了一年。
 
 > 感同身受不存在于这个世界
 > 你与生俱来就是代表特别
